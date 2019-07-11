@@ -101,6 +101,10 @@ ls ${OUTPUT_DIR}
 echo 'Files in directory reserved for scenarios:'
 ls ${OUTPUT_DIR}/scenarios
 
+echo 'running java file'
+
+java test
+
 echo 'test.sh complete'
 
 

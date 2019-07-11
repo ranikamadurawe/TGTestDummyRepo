@@ -7,7 +7,7 @@ class test{
               try {
 
          // create a new input and output stream
-         FileInputStream fis = new FileInputStream("../../../infrastructure.properties");
+         FileInputStream fis = new FileInputStream("../../../../../infrastructure.properties");
 
 	 Properties prop = new Properties();
          // load from input stream
